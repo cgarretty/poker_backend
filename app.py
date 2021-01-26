@@ -5,7 +5,7 @@ import chat
 
 def make_app():
     return tornado.web.Application([
-        (r"/websocket", chat.Chat)
+        (r"/chat", chat.Chat)
     ])
 
 
